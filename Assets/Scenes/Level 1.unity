@@ -20762,12 +20762,20 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 1708226942711707996, guid: e3ca226435348a3499b5333322890056, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 6.8375406
+      objectReference: {fileID: 0}
+    - target: {fileID: 1708226942711707996, guid: e3ca226435348a3499b5333322890056, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 6.9593225
+      objectReference: {fileID: 0}
+    - target: {fileID: 1708226942711707996, guid: e3ca226435348a3499b5333322890056, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -4.86
+      value: -5.51
       objectReference: {fileID: 0}
     - target: {fileID: 1708226942711707996, guid: e3ca226435348a3499b5333322890056, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.5
+      value: 0.11
       objectReference: {fileID: 0}
     - target: {fileID: 1708226942711707996, guid: e3ca226435348a3499b5333322890056, type: 3}
       propertyPath: m_LocalPosition.z
@@ -20805,6 +20813,50 @@ PrefabInstance:
       propertyPath: m_Name
       value: skeleton
       objectReference: {fileID: 0}
+    - target: {fileID: 5345356508050941757, guid: e3ca226435348a3499b5333322890056, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -1565826388, guid: 38fae7db69422d64094eea99df2052ba, type: 3}
+    - target: {fileID: 7373524357468659118, guid: e3ca226435348a3499b5333322890056, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 0.16
+      objectReference: {fileID: 0}
+    - target: {fileID: 7373524357468659118, guid: e3ca226435348a3499b5333322890056, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 0.16
+      objectReference: {fileID: 0}
+    - target: {fileID: 7373524357468659118, guid: e3ca226435348a3499b5333322890056, type: 3}
+      propertyPath: m_Points.m_Paths.Array.data[0].Array.data[0].x
+      value: -0.0768812
+      objectReference: {fileID: 0}
+    - target: {fileID: 7373524357468659118, guid: e3ca226435348a3499b5333322890056, type: 3}
+      propertyPath: m_Points.m_Paths.Array.data[0].Array.data[0].y
+      value: 0.08155304
+      objectReference: {fileID: 0}
+    - target: {fileID: 7373524357468659118, guid: e3ca226435348a3499b5333322890056, type: 3}
+      propertyPath: m_Points.m_Paths.Array.data[0].Array.data[1].x
+      value: -0.067572355
+      objectReference: {fileID: 0}
+    - target: {fileID: 7373524357468659118, guid: e3ca226435348a3499b5333322890056, type: 3}
+      propertyPath: m_Points.m_Paths.Array.data[0].Array.data[1].y
+      value: -0.08283079
+      objectReference: {fileID: 0}
+    - target: {fileID: 7373524357468659118, guid: e3ca226435348a3499b5333322890056, type: 3}
+      propertyPath: m_Points.m_Paths.Array.data[0].Array.data[2].x
+      value: 0.08523193
+      objectReference: {fileID: 0}
+    - target: {fileID: 7373524357468659118, guid: e3ca226435348a3499b5333322890056, type: 3}
+      propertyPath: m_Points.m_Paths.Array.data[0].Array.data[2].y
+      value: -0.08630097
+      objectReference: {fileID: 0}
+    - target: {fileID: 7373524357468659118, guid: e3ca226435348a3499b5333322890056, type: 3}
+      propertyPath: m_Points.m_Paths.Array.data[0].Array.data[3].x
+      value: 0.055302795
+      objectReference: {fileID: 0}
+    - target: {fileID: 7373524357468659118, guid: e3ca226435348a3499b5333322890056, type: 3}
+      propertyPath: m_Points.m_Paths.Array.data[0].Array.data[3].y
+      value: 0.087193616
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -20818,13 +20870,37 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 4840506986288900945, guid: 66cc56dbf4acfb043b5b30054a0ec6a0, type: 3}
+      propertyPath: m_Size.x
+      value: 0.16
+      objectReference: {fileID: 0}
+    - target: {fileID: 4840506986288900945, guid: 66cc56dbf4acfb043b5b30054a0ec6a0, type: 3}
+      propertyPath: m_Size.y
+      value: 0.16
+      objectReference: {fileID: 0}
+    - target: {fileID: 4840506986288900945, guid: 66cc56dbf4acfb043b5b30054a0ec6a0, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 777496069, guid: a514e54160917564fbf441c866b04f6b, type: 3}
+    - target: {fileID: 4840506986288900945, guid: 66cc56dbf4acfb043b5b30054a0ec6a0, type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4882836316275003899, guid: 66cc56dbf4acfb043b5b30054a0ec6a0, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 8.309525
+      objectReference: {fileID: 0}
+    - target: {fileID: 4882836316275003899, guid: 66cc56dbf4acfb043b5b30054a0ec6a0, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 8.254791
+      objectReference: {fileID: 0}
     - target: {fileID: 4882836316275003899, guid: 66cc56dbf4acfb043b5b30054a0ec6a0, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -8.72
+      value: -8.8051
       objectReference: {fileID: 0}
     - target: {fileID: 4882836316275003899, guid: 66cc56dbf4acfb043b5b30054a0ec6a0, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.47
+      value: 0.1345
       objectReference: {fileID: 0}
     - target: {fileID: 4882836316275003899, guid: 66cc56dbf4acfb043b5b30054a0ec6a0, type: 3}
       propertyPath: m_LocalPosition.z
@@ -20861,6 +20937,14 @@ PrefabInstance:
     - target: {fileID: 5636904777432324611, guid: 66cc56dbf4acfb043b5b30054a0ec6a0, type: 3}
       propertyPath: m_Name
       value: dewy
+      objectReference: {fileID: 0}
+    - target: {fileID: 8605042474495655405, guid: 66cc56dbf4acfb043b5b30054a0ec6a0, type: 3}
+      propertyPath: m_Radius
+      value: 0.09920134
+      objectReference: {fileID: 0}
+    - target: {fileID: 8605042474495655405, guid: 66cc56dbf4acfb043b5b30054a0ec6a0, type: 3}
+      propertyPath: m_Offset.y
+      value: 0.000000013340641
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
