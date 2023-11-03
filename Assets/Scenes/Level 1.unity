@@ -228,7 +228,7 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDrag: 0
   m_AngularDrag: 0.05
-  m_GravityScale: 1
+  m_GravityScale: 0
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
@@ -239,7 +239,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 4
 --- !u!1 &171173090
 GameObject:
   m_ObjectHideFlags: 0
@@ -5963,7 +5963,7 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDrag: 0
   m_AngularDrag: 0.05
-  m_GravityScale: 1
+  m_GravityScale: 0
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
@@ -5974,7 +5974,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 4
 --- !u!1 &1105693868
 GameObject:
   m_ObjectHideFlags: 0
@@ -7151,7 +7151,7 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDrag: 0
   m_AngularDrag: 0.05
-  m_GravityScale: 1
+  m_GravityScale: 0
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
@@ -7162,7 +7162,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 4
 --- !u!1001 &1638648256
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7174,6 +7174,14 @@ PrefabInstance:
     - target: {fileID: 5630182075723760351, guid: fec8a95b45013414595220ec1643afdc, type: 3}
       propertyPath: m_Name
       value: Zombie_idle_down_0 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5881518542016801455, guid: fec8a95b45013414595220ec1643afdc, type: 3}
+      propertyPath: m_Constraints
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 5881518542016801455, guid: fec8a95b45013414595220ec1643afdc, type: 3}
+      propertyPath: m_GravityScale
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5905710030616167308, guid: fec8a95b45013414595220ec1643afdc, type: 3}
       propertyPath: m_LocalScale.x
@@ -8269,6 +8277,14 @@ PrefabInstance:
     - target: {fileID: 5630182075723760351, guid: fec8a95b45013414595220ec1643afdc, type: 3}
       propertyPath: m_Name
       value: Zombie_idle_down_0 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5881518542016801455, guid: fec8a95b45013414595220ec1643afdc, type: 3}
+      propertyPath: m_Constraints
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 5881518542016801455, guid: fec8a95b45013414595220ec1643afdc, type: 3}
+      propertyPath: m_GravityScale
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5905710030616167308, guid: fec8a95b45013414595220ec1643afdc, type: 3}
       propertyPath: m_LocalScale.x
