@@ -7,6 +7,7 @@ public class playerControler : MonoBehaviour
     public float playerSpeed;
     public GameObject meat;
     public GameObject meatSpawner;
+    public Animator animator;
 
     private float meatCooldown = 1.0f;
     private float meatTimer = 0.0f;
@@ -27,6 +28,10 @@ public class playerControler : MonoBehaviour
 
         Vector2 newVelocity = new Vector2(horizontalMovement, verticalMovement);
         GetComponent<Rigidbody2D>().velocity = newVelocity * playerSpeed;
+
+        animator.SetFloat("Horizontal", horizontalMovement);
+        animator.SetFloat("Vertical", verticalMovement);
+        animator.SetFloat("Speed", newVelocity.sqrMagnitude);
 
         if (Input.GetAxis("Fire1") > 0 && meatTimer > meatCooldown)
         {

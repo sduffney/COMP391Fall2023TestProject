@@ -7879,6 +7879,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 8959009754392442218, guid: a0457cfcd3f9a9b47a2b770b16b3d263, type: 3}
     - target: {fileID: 1069778039139479196, guid: 66cc56dbf4acfb043b5b30054a0ec6a0, type: 3}
+      propertyPath: animator
+      value: 
+      objectReference: {fileID: 966645503}
+    - target: {fileID: 1069778039139479196, guid: 66cc56dbf4acfb043b5b30054a0ec6a0, type: 3}
       propertyPath: meatSpawner
       value: 
       objectReference: {fileID: 1182857786}
