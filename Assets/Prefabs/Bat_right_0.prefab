@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 8890925574014215219}
   - component: {fileID: 5561500291756677374}
   - component: {fileID: 8685611191158252134}
+  - component: {fileID: -8025981745907791084}
   m_Layer: 0
   m_Name: Bat_right_0
   m_TagString: Untagged
@@ -138,3 +139,24 @@ PolygonCollider2D:
       - {x: 0.08, y: -0.03}
       - {x: 0.08, y: 0.03}
   m_UseDelaunayMesh: 0
+--- !u!95 &-8025981745907791084
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 899102535966473825}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 5d52edc247cb7d443879d67b16817738, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
