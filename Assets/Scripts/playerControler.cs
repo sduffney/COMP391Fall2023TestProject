@@ -5,6 +5,11 @@ using UnityEngine;
 public class playerControler : MonoBehaviour
 {
     public float playerSpeed;
+    public GameObject meat;
+    public GameObject meatSpawner;
+
+    private float meatCooldown = 1.0f;
+    private float meatTimer = 0.0f;
     // Start is called before the first frame update
     void Start()
     {
@@ -23,5 +28,14 @@ public class playerControler : MonoBehaviour
         Vector2 newVelocity = new Vector2(horizontalMovement, verticalMovement);
         GetComponent<Rigidbody2D>().velocity = newVelocity * playerSpeed;
 
+        if (Input.GetAxis("Fire1") > 0 && meatTimer > meatCooldown)
+        {
+            GameObject goObj;
+            goObj = GameObject.Instantiate(meat, meatSpawner.transform.position, meatSpawner.transform.rotation);
+            goObj.transform.Rotate(0.0f, 0.0f, 0.0f);
+            meatTimer = 0;
+
+        }
+        meatTimer += Time.deltaTime;
     }
 }
