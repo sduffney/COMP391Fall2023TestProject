@@ -1,0 +1,2120 @@
+fileFormatVersion: 2
+guid: 14d246fdfa749b9428ae523f1b7a56b6
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Heart_Drop_Star_16x16_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 225
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8474f7272fc8e09448ccbbfa37b81c09
+      internalID: -343263123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heart_Drop_Star_16x16_1
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 225
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec4203c91d1ab744f93fe95859c114d7
+      internalID: 955781761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heart_Drop_Star_16x16_2
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 225
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34c4bca917fd63e4cabf939026cf7864
+      internalID: -495006488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heart_Drop_Star_16x16_3
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 224
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5d15bd0c2365f84db8fa4ce53de4d41
+      internalID: -957267098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heart_Drop_Star_16x16_4
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 224
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c9ee01ae95d7184c839dc933ffed8a7
+      internalID: -1274210892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heart_Drop_Star_16x16_5
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 224
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0244294459c85ea4c931c1804375a29f
+      internalID: -800970883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heart_Drop_Star_16x16_6
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 209
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 871335807d82a9847ac9775fae09a320
+      internalID: 142948030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heart_Drop_Star_16x16_7
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 209
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03f80318d7caa4147a575e021702bbad
+      internalID: -369418169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heart_Drop_Star_16x16_8
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 209
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b302979cb03d9a4bb5236461ec68a78
+      internalID: -204319674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heart_Drop_Star_16x16_9
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 208
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1f98010004f43842b8f01d87d68a84d
+      internalID: 1113800122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heart_Drop_Star_16x16_10
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 208
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5552a1e175939cc469d261e9497f8131
+      internalID: -438067476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heart_Drop_Star_16x16_11
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 208
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b27351b8447ca7548bf677c0139f2a1d
+      internalID: -843848870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heart_Drop_Star_16x16_12
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 193
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36d6648286855f846999cf92b183df57
+      internalID: 1712411434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heart_Drop_Star_16x16_13
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 193
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf903640fa9d072468b2638da4ad3fc1
+      internalID: 887112647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heart_Drop_Star_16x16_14
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 193
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46bb0273c40f72b4e962d2b94b0caa9b
+      internalID: 1655635994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heart_Drop_Star_16x16_15
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 192
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08a86609ad756cc4b99ebb89769095ea
+      internalID: -1883762286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heart_Drop_Star_16x16_16
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 192
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfe487b549d12fc469f2e5d79f44f71c
+      internalID: 522504175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heart_Drop_Star_16x16_17
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 192
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2643c169a5c8944cb1862cffa942189
+      internalID: -395173915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heart_Drop_Star_16x16_18
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 177
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c555014b4973f9243acf4f3cf5c15779
+      internalID: -1053186848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heart_Drop_Star_16x16_19
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 177
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6a084985011eac45b97775ecfe54e8a
+      internalID: 586961482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heart_Drop_Star_16x16_20
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 177
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce39ef25e3d4f2340a75e540c60f87d5
+      internalID: 1133751134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heart_Drop_Star_16x16_21
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 176
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83fdc17a3bab6ca4fb84914e1fe17499
+      internalID: -1947902239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heart_Drop_Star_16x16_22
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 176
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35933a0943b47594a9630a8b8147bb8f
+      internalID: 2008163329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heart_Drop_Star_16x16_23
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 176
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34dc20cefd25357498cd6c25c846620b
+      internalID: 535387409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heart_Drop_Star_16x16_24
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 161
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c623eaf5aebfec64d96d85640d016a4b
+      internalID: -1554202505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heart_Drop_Star_16x16_25
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 161
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a9f04011f5c37145a0cd77291d05eb8
+      internalID: 640785388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heart_Drop_Star_16x16_26
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 161
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47fbb1c325d81294ab688e731df70f29
+      internalID: -230166427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heart_Drop_Star_16x16_27
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 160
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc5efc1a38a1c3f438b198985ed5f488
+      internalID: -653338558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heart_Drop_Star_16x16_28
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 160
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a55ec70ca5cd91418f2b387b70aa484
+      internalID: -817445651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heart_Drop_Star_16x16_29
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 160
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dee210705ef48b14893cf4cf113c1c8c
+      internalID: -315359099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heart_Drop_Star_16x16_30
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 145
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b78072dcdd2f1041a0110a344667bf3
+      internalID: 339340370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heart_Drop_Star_16x16_31
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 145
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1777ea1db3270d7438887e59c628647d
+      internalID: -587456379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heart_Drop_Star_16x16_32
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 145
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 878c067e620dedb4f9a0d1b09eb76301
+      internalID: 1502741772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heart_Drop_Star_16x16_33
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 144
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 116f38acb507c2847a59515de359dde7
+      internalID: 673269867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heart_Drop_Star_16x16_34
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 144
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47a2edf979923254fa2954299d3c946f
+      internalID: -415449279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heart_Drop_Star_16x16_35
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 144
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d16c9fc9555692d47b114ac14ad9fd32
+      internalID: 87650475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heart_Drop_Star_16x16_36
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 129
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdaa27cac52213e4d8c52fab6c11699a
+      internalID: 1203501604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heart_Drop_Star_16x16_37
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 129
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8a59db8b703ba847853bd910aff311b
+      internalID: -229521815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heart_Drop_Star_16x16_38
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 129
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51345d6b352e55349b37c3621a4e0bba
+      internalID: 1824283430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heart_Drop_Star_16x16_39
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 128
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a257aea4bc192a54b9dc05bbab281164
+      internalID: -1031103796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heart_Drop_Star_16x16_40
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 128
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42d7453902ee4ca40857727745be292b
+      internalID: 166271424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heart_Drop_Star_16x16_41
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 128
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3078462bce61f5d4190ddedb9937034a
+      internalID: 1128435423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heart_Drop_Star_16x16_42
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 112
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c33fc3303f049ac49bdd390a5f5259c9
+      internalID: -2103810377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heart_Drop_Star_16x16_43
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 113
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0448da6e19be9c44bb84aa4b255fd1e
+      internalID: 1734543229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heart_Drop_Star_16x16_44
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 113
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: daa9e4170298f9b4994c709ce222df7e
+      internalID: 501909746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heart_Drop_Star_16x16_45
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 112
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad16dcfa7f068954f88926ebb0be263d
+      internalID: 2041120989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heart_Drop_Star_16x16_46
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 112
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9f513192ffe9dd40a308608be43c2af
+      internalID: 1986003179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heart_Drop_Star_16x16_47
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 112
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb8d846ed834c1249bcb78d79fecb50d
+      internalID: -2069859353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heart_Drop_Star_16x16_48
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 97
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 596097960e713804fb8c9bce2aa91a34
+      internalID: 1469359288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heart_Drop_Star_16x16_49
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 97
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f487ab1031af2c419be9588076591d1
+      internalID: -158486355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heart_Drop_Star_16x16_50
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 97
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2dc31bc1401d84d4ca352dbf65ba2dd4
+      internalID: -452482972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heart_Drop_Star_16x16_51
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 96
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ad331b27348e5a409ca9c7c0c7e7ad0
+      internalID: -1991987146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heart_Drop_Star_16x16_52
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 96
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71fff2d14db5ebc4ab2f8edd5350fb43
+      internalID: 1849606400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heart_Drop_Star_16x16_53
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 96
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eac8813dcd785a4469fa958f3fb1c595
+      internalID: -735839497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heart_Drop_Star_16x16_54
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 81
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bf9c9ccc3992af4289fb173502077cc
+      internalID: 340846960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heart_Drop_Star_16x16_55
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 81
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1caeab4f44948b54d8c2e838bc6d0cea
+      internalID: 1309857235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heart_Drop_Star_16x16_56
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 81
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f92293aa5e4df7143ba91cefa71cfc46
+      internalID: -895859181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heart_Drop_Star_16x16_57
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 80
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abac8e060ad32df418b56962a09a2435
+      internalID: -1283850075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heart_Drop_Star_16x16_58
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 80
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6062b689ccb6a5f449705589c53fe838
+      internalID: -1760629526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heart_Drop_Star_16x16_59
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 80
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d15894fa843d79046b4be53bd8dc3387
+      internalID: -2009654462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heart_Drop_Star_16x16_60
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 65
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb746754235e1174d8bd3f259765d8a4
+      internalID: -1842334099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heart_Drop_Star_16x16_61
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 65
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72aff2e4b9959bb49b24a424edcf1142
+      internalID: -199255973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heart_Drop_Star_16x16_62
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 65
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcb70996cf9c8e046baf940b81c410e3
+      internalID: -120000615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heart_Drop_Star_16x16_63
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 64
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72da492db0dc2ce4096ac9dfc800da05
+      internalID: -1301673940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heart_Drop_Star_16x16_64
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 64
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92f1242d34de2434b8012436d7722800
+      internalID: -945799508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heart_Drop_Star_16x16_65
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 64
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c49e4163e55037643915a609d9bbc39e
+      internalID: 1895841128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heart_Drop_Star_16x16_66
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 49
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 533c7c30c6dfc88419ee7773d16c8190
+      internalID: 768549013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heart_Drop_Star_16x16_67
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 49
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6629b38b3a0a7f24984d3f5cd483b748
+      internalID: -1354737683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heart_Drop_Star_16x16_68
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 49
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e333cb386e30f1741b182f2168eea513
+      internalID: -308140613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heart_Drop_Star_16x16_69
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 48
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3b5d1937cc83c34c9e701ac709a2456
+      internalID: -498642283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heart_Drop_Star_16x16_70
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 48
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 494321784187c6747b78e03808a1f3cd
+      internalID: -1217306693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heart_Drop_Star_16x16_71
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 48
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea337bf5127ab4d4eb703103c4d17212
+      internalID: -1361389315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heart_Drop_Star_16x16_72
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 33
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f28f958fd8d76743873d1237f0d641e
+      internalID: -1588496148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heart_Drop_Star_16x16_73
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 33
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87c4847393ca91a42aa6fce758b46a1a
+      internalID: 1670064966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heart_Drop_Star_16x16_74
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 33
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b79b987e7412f14eb3d8341d46df5f4
+      internalID: 908009998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heart_Drop_Star_16x16_75
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 32
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1b41cc99a608c64590615cd5ec48b47
+      internalID: -2068270172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heart_Drop_Star_16x16_76
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 32
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a58ce58a5882cf46ac999712e77a4da
+      internalID: -1632973064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heart_Drop_Star_16x16_77
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 32
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 650f4c3f3d40ac44085d8b47afb422a4
+      internalID: 1922601583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heart_Drop_Star_16x16_78
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 17
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67049d9d49e535d4f905cee40d096751
+      internalID: 1828668553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heart_Drop_Star_16x16_79
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 17
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f292a0e9e757129498a4e40b3d26d8d1
+      internalID: -2022632477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heart_Drop_Star_16x16_80
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 17
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82a83b93f5c2fc141ba0696036cfec6e
+      internalID: -1002565647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heart_Drop_Star_16x16_81
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 16
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0885fd1b6c8cc9a4bb0f5a9642c717f4
+      internalID: -1684940779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heart_Drop_Star_16x16_82
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 16
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db232fe88f96752408a49cf3f282f84b
+      internalID: 681009446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heart_Drop_Star_16x16_83
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 16
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6fb1e8bdd3c2b14cafd377b13708500
+      internalID: 1742574579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heart_Drop_Star_16x16_84
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de93e5a0e8ed6cd45acf43105ab5a0e0
+      internalID: 851716291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heart_Drop_Star_16x16_85
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 1
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3362f9ed10c0b4e4d8afb74e84463e29
+      internalID: 1476485311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heart_Drop_Star_16x16_86
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 1
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4a44bca805693244b6a06c63a625550
+      internalID: -1270738752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heart_Drop_Star_16x16_87
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 0
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33c512b5bb839484483e8a2abc6911fc
+      internalID: 1139693075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heart_Drop_Star_16x16_88
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbbed702165ff2b41933d6513a1de168
+      internalID: 1444625307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heart_Drop_Star_16x16_89
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 0
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 810dab5370c399041b21ff38c79959c9
+      internalID: -1396937114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Heart_Drop_Star_16x16_0: -343263123
+      Heart_Drop_Star_16x16_1: 955781761
+      Heart_Drop_Star_16x16_10: -438067476
+      Heart_Drop_Star_16x16_11: -843848870
+      Heart_Drop_Star_16x16_12: 1712411434
+      Heart_Drop_Star_16x16_13: 887112647
+      Heart_Drop_Star_16x16_14: 1655635994
+      Heart_Drop_Star_16x16_15: -1883762286
+      Heart_Drop_Star_16x16_16: 522504175
+      Heart_Drop_Star_16x16_17: -395173915
+      Heart_Drop_Star_16x16_18: -1053186848
+      Heart_Drop_Star_16x16_19: 586961482
+      Heart_Drop_Star_16x16_2: -495006488
+      Heart_Drop_Star_16x16_20: 1133751134
+      Heart_Drop_Star_16x16_21: -1947902239
+      Heart_Drop_Star_16x16_22: 2008163329
+      Heart_Drop_Star_16x16_23: 535387409
+      Heart_Drop_Star_16x16_24: -1554202505
+      Heart_Drop_Star_16x16_25: 640785388
+      Heart_Drop_Star_16x16_26: -230166427
+      Heart_Drop_Star_16x16_27: -653338558
+      Heart_Drop_Star_16x16_28: -817445651
+      Heart_Drop_Star_16x16_29: -315359099
+      Heart_Drop_Star_16x16_3: -957267098
+      Heart_Drop_Star_16x16_30: 339340370
+      Heart_Drop_Star_16x16_31: -587456379
+      Heart_Drop_Star_16x16_32: 1502741772
+      Heart_Drop_Star_16x16_33: 673269867
+      Heart_Drop_Star_16x16_34: -415449279
+      Heart_Drop_Star_16x16_35: 87650475
+      Heart_Drop_Star_16x16_36: 1203501604
+      Heart_Drop_Star_16x16_37: -229521815
+      Heart_Drop_Star_16x16_38: 1824283430
+      Heart_Drop_Star_16x16_39: -1031103796
+      Heart_Drop_Star_16x16_4: -1274210892
+      Heart_Drop_Star_16x16_40: 166271424
+      Heart_Drop_Star_16x16_41: 1128435423
+      Heart_Drop_Star_16x16_42: -2103810377
+      Heart_Drop_Star_16x16_43: 1734543229
+      Heart_Drop_Star_16x16_44: 501909746
+      Heart_Drop_Star_16x16_45: 2041120989
+      Heart_Drop_Star_16x16_46: 1986003179
+      Heart_Drop_Star_16x16_47: -2069859353
+      Heart_Drop_Star_16x16_48: 1469359288
+      Heart_Drop_Star_16x16_49: -158486355
+      Heart_Drop_Star_16x16_5: -800970883
+      Heart_Drop_Star_16x16_50: -452482972
+      Heart_Drop_Star_16x16_51: -1991987146
+      Heart_Drop_Star_16x16_52: 1849606400
+      Heart_Drop_Star_16x16_53: -735839497
+      Heart_Drop_Star_16x16_54: 340846960
+      Heart_Drop_Star_16x16_55: 1309857235
+      Heart_Drop_Star_16x16_56: -895859181
+      Heart_Drop_Star_16x16_57: -1283850075
+      Heart_Drop_Star_16x16_58: -1760629526
+      Heart_Drop_Star_16x16_59: -2009654462
+      Heart_Drop_Star_16x16_6: 142948030
+      Heart_Drop_Star_16x16_60: -1842334099
+      Heart_Drop_Star_16x16_61: -199255973
+      Heart_Drop_Star_16x16_62: -120000615
+      Heart_Drop_Star_16x16_63: -1301673940
+      Heart_Drop_Star_16x16_64: -945799508
+      Heart_Drop_Star_16x16_65: 1895841128
+      Heart_Drop_Star_16x16_66: 768549013
+      Heart_Drop_Star_16x16_67: -1354737683
+      Heart_Drop_Star_16x16_68: -308140613
+      Heart_Drop_Star_16x16_69: -498642283
+      Heart_Drop_Star_16x16_7: -369418169
+      Heart_Drop_Star_16x16_70: -1217306693
+      Heart_Drop_Star_16x16_71: -1361389315
+      Heart_Drop_Star_16x16_72: -1588496148
+      Heart_Drop_Star_16x16_73: 1670064966
+      Heart_Drop_Star_16x16_74: 908009998
+      Heart_Drop_Star_16x16_75: -2068270172
+      Heart_Drop_Star_16x16_76: -1632973064
+      Heart_Drop_Star_16x16_77: 1922601583
+      Heart_Drop_Star_16x16_78: 1828668553
+      Heart_Drop_Star_16x16_79: -2022632477
+      Heart_Drop_Star_16x16_8: -204319674
+      Heart_Drop_Star_16x16_80: -1002565647
+      Heart_Drop_Star_16x16_81: -1684940779
+      Heart_Drop_Star_16x16_82: 681009446
+      Heart_Drop_Star_16x16_83: 1742574579
+      Heart_Drop_Star_16x16_84: 851716291
+      Heart_Drop_Star_16x16_85: 1476485311
+      Heart_Drop_Star_16x16_86: -1270738752
+      Heart_Drop_Star_16x16_87: 1139693075
+      Heart_Drop_Star_16x16_88: 1444625307
+      Heart_Drop_Star_16x16_89: -1396937114
+      Heart_Drop_Star_16x16_9: 1113800122
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

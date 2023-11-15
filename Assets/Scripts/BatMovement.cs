@@ -41,6 +41,12 @@ public class BatMovement : MonoBehaviour
         {
             seenPlayer = true;
         }
+        else
+        {
+            seenPlayer = false;
+            Vector2 stop = new Vector2(0, 0);
+            rb.velocity = stop;
+        }
         if (seenPlayer)
         {
             if (chance > 70)
@@ -87,13 +93,5 @@ public class BatMovement : MonoBehaviour
         newX = Mathf.Clamp(GetComponent<Rigidbody2D>().position.x, minX, maxX);
         newY = Mathf.Clamp(GetComponent<Rigidbody2D>().position.y, minY, maxY);
         GetComponent<Rigidbody2D>().position = new Vector2(newX, newY);
-    }
-    private void OnCollisionEnter2D(Collision2D collision)
-    {
-        if (this.gameObject.tag == "Bat" && collision.gameObject.tag == "Player")
-        {
-            movementRate = 1;
-            timer = 0;
-        }
     }
 }
