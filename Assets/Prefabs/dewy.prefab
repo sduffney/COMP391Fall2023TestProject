@@ -128,6 +128,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerSpeed: 0
+  meat: {fileID: 8959009754392442218, guid: a0457cfcd3f9a9b47a2b770b16b3d263, type: 3}
+  meatSpawner: {fileID: 0}
+  animator: {fileID: 8496972923144944381}
 --- !u!61 &1658535644496196444
 BoxCollider2D:
   m_ObjectHideFlags: 0
