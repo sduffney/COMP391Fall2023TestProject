@@ -6,7 +6,7 @@ using UnityEngine.UIElements;
 public class ZombieMovement : MonoBehaviour
 {
     Rigidbody2D rb;
-    private float timer = 0;
+    private float timer = 5;
     private GameObject[] player;
     private bool seenPlayer;
     public float agroDistance;
