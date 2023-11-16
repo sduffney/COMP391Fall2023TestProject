@@ -13,6 +13,8 @@ GameObject:
   - component: {fileID: 5881518542016801455}
   - component: {fileID: 4971591316112096990}
   - component: {fileID: -3655321893594376262}
+  - component: {fileID: -8480790849582562594}
+  - component: {fileID: -6957615387909364588}
   m_Layer: 0
   m_Name: Zombie_idle_down_0 (1)
   m_TagString: Untagged
@@ -186,3 +188,29 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &-8480790849582562594
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5630182075723760351}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5ba5b470bc3fac42ac5e5fdc38f79a2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  agroDistance: 10
+  speed: 0.25
+--- !u!114 &-6957615387909364588
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5630182075723760351}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 29d53b6046607c6429522b4b59e28fd5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
