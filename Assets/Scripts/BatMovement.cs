@@ -12,7 +12,7 @@ public class BatMovement : MonoBehaviour
 {
     Rigidbody2D rb;
     private float movementRate;
-    private float timer = 0;
+    private float timer = 5;
     public float minX, maxX, minY, maxY;
     private GameObject[] player;
     private bool seenPlayer;
