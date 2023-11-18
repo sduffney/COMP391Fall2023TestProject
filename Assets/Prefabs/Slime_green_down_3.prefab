@@ -212,5 +212,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fd4d256c8189e59418461c73a99c6bb2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  agroDistance: 4
+  agroDistance: 6
   speed: 5

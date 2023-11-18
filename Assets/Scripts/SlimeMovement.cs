@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UIElements;
-
+ 
 public class SlimeMovement : MonoBehaviour
 {
     Rigidbody2D rb;
@@ -11,6 +11,8 @@ public class SlimeMovement : MonoBehaviour
     private bool seenPlayer;
     public float agroDistance;
     public float speed;
+    private Vector2 prePlayerPos;
+    private float playerTimer = 0;
     // Start is called before the first frame update
     void Start()
     {
@@ -18,7 +20,7 @@ public class SlimeMovement : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
         seenPlayer = false;
     }
-
+ 
     // Update is called once per frame
     void Update()
     {
@@ -35,10 +37,15 @@ public class SlimeMovement : MonoBehaviour
             Vector2 stop = new Vector2(0, 0);
             rb.velocity = stop;
         }
+        if (playerTimer > 2.25 && timer > 1 && seenPlayer)
+        {
+            playerTimer = 0;
+            prePlayerPos = new Vector2(playerPos.x, playerPos.y);
+        }
         if (seenPlayer && timer > 2)
         {
-            xMovement = playerPos.x - this.transform.position.x;
-            yMovement = playerPos.y - this.transform.position.y;
+            xMovement = prePlayerPos.x - this.transform.position.x;
+            yMovement = prePlayerPos.y - this.transform.position.y;
             if (xMovement > 0 && xMovement < 2.25)
             {
                 xMovement = 2;
@@ -64,6 +71,15 @@ public class SlimeMovement : MonoBehaviour
             Vector2 stop = new Vector2(0, 0);
             rb.velocity = stop;
         }
-        timer += Time.deltaTime;
+        if (seenPlayer)
+        {
+            timer += Time.deltaTime;
+            playerTimer += Time.deltaTime;
+        }
+        else
+        {
+            timer = 0;
+            playerTimer = 0;
+        }
     }
 }
