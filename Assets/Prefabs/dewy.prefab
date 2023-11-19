@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 1069778039139479196}
   - component: {fileID: 1658535644496196444}
   - component: {fileID: 8496972923144944381}
+  - component: {fileID: -3078182205604077392}
   m_Layer: 0
   m_Name: dewy
   m_TagString: Untagged
@@ -131,6 +132,7 @@ MonoBehaviour:
   meat: {fileID: 8959009754392442218, guid: a0457cfcd3f9a9b47a2b770b16b3d263, type: 3}
   meatSpawner: {fileID: 0}
   animator: {fileID: 8496972923144944381}
+  pauseMenu: {fileID: 0}
 --- !u!61 &1658535644496196444
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -197,3 +199,15 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &-3078182205604077392
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5636904777432324611}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1390f98b8aecc2c4e99d0f1743eaa35c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
