@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 using UnityEngine.UIElements;
  
 public class playerControler : MonoBehaviour
@@ -14,11 +15,15 @@ public class playerControler : MonoBehaviour
     private float meatTimer = 0.0f;
     private GameObject[] meatSpawned;
     private int numOfMeat;
+    private bool isPaused;
+    public GameObject pauseMenu;
     // Start is called before the first frame update
     void Start()
     {
         playerSpeed = 4;
         numOfMeat = 0;
+        isPaused = false;
+        pauseMenu.SetActive(false);
     }
  
     // Update is called once per frame
@@ -44,7 +49,12 @@ public class playerControler : MonoBehaviour
             goObj.transform.Rotate(0.0f, 0.0f, 0.0f);
             numOfMeat++;
             meatTimer = 0;
- 
+        }
+        if (Input.GetKeyDown(KeyCode.Escape)) 
+        {
+                Time.timeScale = 0;
+                isPaused = true;
+                pauseMenu.SetActive(true);
         }
         if (meatTimer > meatCooldown && numOfMeat > 0)
         {
