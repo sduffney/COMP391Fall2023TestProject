@@ -32,8 +32,7 @@ public class SkeletonMovement : MonoBehaviour
         else
         {
             seenPlayer = false;
-            Vector2 stop = new Vector2(0, 0);
-            rb.velocity = stop;
+            rb.velocity = Vector2.zero;
         }
         if (seenPlayer && timer > 0.5)
         {

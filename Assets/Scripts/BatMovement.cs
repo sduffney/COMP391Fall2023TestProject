@@ -44,8 +44,7 @@ public class BatMovement : MonoBehaviour
         else
         {
             seenPlayer = false;
-            Vector2 stop = new Vector2(0, 0);
-            rb.velocity = stop;
+            rb.velocity = Vector2.zero;
         }
         if (seenPlayer)
         {

@@ -55,8 +55,7 @@ public class ZombieMovement : MonoBehaviour
         }
         if (!seePlayer && !seeMeat)
         {
-            Vector2 stop = new Vector2(0, 0);
-            rb.velocity = stop;
+            rb.velocity = Vector2.zero;
         }
         if (timer > 2 && seeMeat)
         {
@@ -108,8 +107,7 @@ public class ZombieMovement : MonoBehaviour
         }
         else if ((seePlayer || seeMeat) && timer > 1.5)
         {
-            Vector2 stop = new Vector2(0, 0);
-            rb.velocity = stop;
+            rb.velocity = Vector2.zero;
         }
         timer += Time.deltaTime;
     }

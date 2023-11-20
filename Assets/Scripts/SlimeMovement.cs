@@ -34,8 +34,7 @@ public class SlimeMovement : MonoBehaviour
         else
         {
             seenPlayer = false;
-            Vector2 stop = new Vector2(0, 0);
-            rb.velocity = stop;
+            rb.velocity = Vector2.zero;
         }
         if (playerTimer > 2.25 && timer > 1 && seenPlayer)
         {
@@ -68,8 +67,7 @@ public class SlimeMovement : MonoBehaviour
         }
         else if (seenPlayer && timer > 0.25)
         {
-            Vector2 stop = new Vector2(0, 0);
-            rb.velocity = stop;
+            rb.velocity = Vector2.zero;
         }
         if (seenPlayer)
         {
