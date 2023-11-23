@@ -41,7 +41,7 @@ public class SlimeMovement : MonoBehaviour
             playerTimer = 0;
             prePlayerPos = new Vector2(playerPos.x, playerPos.y);
         }
-        if (seenPlayer && timer > 2)
+        if (seenPlayer && timer > 2.1)
         {
             xMovement = prePlayerPos.x - this.transform.position.x;
             yMovement = prePlayerPos.y - this.transform.position.y;
@@ -65,7 +65,7 @@ public class SlimeMovement : MonoBehaviour
             rb.velocity = newVelocity * speed;
             timer = 0;
         }
-        else if (seenPlayer && timer > 0.25)
+        else if (seenPlayer && timer > 0.1)
         {
             rb.velocity = Vector2.zero;
         }
