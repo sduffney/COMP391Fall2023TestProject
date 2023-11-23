@@ -17,6 +17,8 @@ public class DewyHealthSystem : MonoBehaviour
     private AudioSource[] sounds;
     private Rigidbody2D rb;
     private bool isDead;
+    public GameObject winText;
+    public GameObject loseText;
     void Start()
     {
         gameOverMenu.SetActive(false);
@@ -37,6 +39,9 @@ public class DewyHealthSystem : MonoBehaviour
         if (currentHealth <= 0 && !isDead)
         {
             gameOverMenu.SetActive(true);
+            winText.SetActive(false);
+            loseText.SetActive(true);
+            
             sounds[0].Play();
             isDead = true;
             //Dewy is dead.
