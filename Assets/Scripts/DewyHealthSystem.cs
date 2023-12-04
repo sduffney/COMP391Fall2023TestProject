@@ -65,15 +65,6 @@ public class DewyHealthSystem : MonoBehaviour
     private void Update() //For testing purposes. Remove later.
     {
         damageTimer += Time.deltaTime;
-        if (Input.GetKeyDown(KeyCode.Return))
-        {
-            TakeDamage(10);
-        }
-
-        if (Input.GetKeyDown(KeyCode.Space))
-        {
-            Heal(10);
-        }
         if (isDead)
         {
             rb.velocity = Vector2.zero;
